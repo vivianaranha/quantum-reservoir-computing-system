@@ -1,0 +1,81 @@
+{
+  "quantum": {
+    "qubits": 4,
+    "virtual_nodes": 4,
+    "time_delta": 0.8,
+    "couplings": [
+      [
+        0.0,
+        0.5479120971119267,
+        -0.12224312049589536,
+        0.7171958398227649
+      ],
+      [
+        0.5479120971119267,
+        0.0,
+        0.3947360581187278,
+        -0.8116453042247009
+      ],
+      [
+        -0.12224312049589536,
+        0.3947360581187278,
+        0.0,
+        0.9512447032735118
+      ],
+      [
+        0.7171958398227649,
+        -0.8116453042247009,
+        0.9512447032735118,
+        0.0
+      ]
+    ],
+    "fields": [
+      0.36559558278649407,
+      0.4004900273877352,
+      -0.5206409142542358,
+      -0.06945968694620597
+    ],
+    "observable_count": 10,
+    "feature_count": 40,
+    "hilbert_dimension": 16,
+    "hamiltonian_terms": 10,
+    "measurement_labels": [
+      "Z0",
+      "Z1",
+      "Z2",
+      "Z3",
+      "Z0Z1",
+      "Z0Z2",
+      "Z0Z3",
+      "Z1Z2",
+      "Z1Z3",
+      "Z2Z3"
+    ],
+    "hamiltonian_min_eigenvalue": -3.7319797541303683,
+    "hamiltonian_max_eigenvalue": 2.2880752393467074,
+    "hamiltonian_spectral_width": 6.020054993477076,
+    "unitarity_error_frobenius": 5.470204106735768e-16,
+    "diagram_circuit_depth": 26,
+    "diagram_circuit_operations": {
+      "rxx": 6,
+      "rz": 4
+    },
+    "simulation_method": "exact density matrix with full Hamiltonian exponentiation",
+    "diagram_note": "The saved circuit is a first-order visualization, not the simulator path.",
+    "maximum_trace_error": 4.440892098500626e-16,
+    "minimum_purity": 0.06254656678165896,
+    "maximum_purity": 0.7505944860995526,
+    "readout_alpha": 1e-06,
+    "trained_quantum_parameters": 0,
+    "trained_readout_parameters": 41
+  },
+  "classical": {
+    "echo_state_nodes": 40,
+    "echo_state_spectral_radius": 0.9000000000000046,
+    "echo_state_leak_rate": 0.35,
+    "echo_state_readout_alpha": 1e-06,
+    "autoregressive_lags": 20,
+    "autoregressive_alpha": 1e-06,
+    "random_forest_estimators": 250
+  }
+}

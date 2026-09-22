@@ -1,0 +1,74 @@
+{
+  "models": [
+    {
+      "model": "autoregressive_ridge",
+      "mae": 0.00038543317229464103,
+      "rmse": 0.0004952127701640282,
+      "nrmse_std": 0.0021223238912344688,
+      "mape_percent": 0.045835051764433005,
+      "r2": 0.9999954957413006,
+      "bias": 4.979567461670021e-06,
+      "directional_accuracy": 0.9936507936507937,
+      "skill_vs_persistence_rmse": 0.9856474865231527,
+      "training_seconds": 0.00551387000041359,
+      "inference_seconds": 0.0001276269999834767,
+      "inference_ms_per_sample": 0.00040388291134011616
+    },
+    {
+      "model": "quantum_reservoir",
+      "mae": 0.0007927344715011506,
+      "rmse": 0.0010555866733671395,
+      "nrmse_std": 0.004523907603218203,
+      "mape_percent": 0.09290740876248178,
+      "r2": 0.9999795342599975,
+      "bias": -3.2319339164074526e-06,
+      "directional_accuracy": 0.9968253968253968,
+      "skill_vs_persistence_rmse": 0.9694064392756592,
+      "training_seconds": 0.7208096660001502,
+      "inference_seconds": 0.1540220270003374,
+      "inference_ms_per_sample": 0.487411477849169
+    },
+    {
+      "model": "echo_state_network",
+      "mae": 0.0012583513806446733,
+      "rmse": 0.0015932448715729396,
+      "nrmse_std": 0.006828139053049935,
+      "mape_percent": 0.14675354907947238,
+      "r2": 0.9999533765170722,
+      "bias": 0.00014515407164567885,
+      "directional_accuracy": 0.9968253968253968,
+      "skill_vs_persistence_rmse": 0.9538237503778543,
+      "training_seconds": 0.017374153999753617,
+      "inference_seconds": 0.0004263740001988481,
+      "inference_ms_per_sample": 0.0013492848107558484
+    },
+    {
+      "model": "random_forest",
+      "mae": 0.00394374854731966,
+      "rmse": 0.005204286170291957,
+      "nrmse_std": 0.022303909635394272,
+      "mape_percent": 0.470524667642805,
+      "r2": 0.9995025356149762,
+      "bias": 0.0005582943308683743,
+      "directional_accuracy": 0.9714285714285714,
+      "skill_vs_persistence_rmse": 0.8491666776449559,
+      "training_seconds": 0.29982400299968504,
+      "inference_seconds": 0.045941499000036856,
+      "inference_ms_per_sample": 0.14538449050644575
+    },
+    {
+      "model": "persistence",
+      "mae": 0.02871074243461667,
+      "rmse": 0.0345035572314828,
+      "nrmse_std": 0.14787123486475665,
+      "mape_percent": 3.521268378770607,
+      "r2": 0.978134097899572,
+      "bias": 0.0007664146904872304,
+      "directional_accuracy": 0.0,
+      "skill_vs_persistence_rmse": 0.0,
+      "training_seconds": 0.0,
+      "inference_seconds": 0.0,
+      "inference_ms_per_sample": 0.0
+    }
+  ]
+}

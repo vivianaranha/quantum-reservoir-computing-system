@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Quantum Reservoir Computing System"
+version: 1.0.0
+date-released: 2026-09-22
+authors:
+  - name: "School of AI and School of QC"
+license: MIT
+type: software
+abstract: "A reproducible quantum reservoir computing benchmark for nonlinear time-series prediction."
